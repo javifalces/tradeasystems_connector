@@ -1,11 +1,11 @@
 import user_settings
-from manager_trader import ManagerTrader
+from tradeasystems_connector.manager_trader import ManagerTrader
 # %% 2
-from model.asset_type import AssetType
-from model.bar_type import BarType
-from model.currency import Currency
-from model.period import Period
-from util.instrument_util import getInstrumentList
+from tradeasystems_connector.model.asset_type import AssetType
+from tradeasystems_connector.model.bar_type import BarType
+from tradeasystems_connector.model.currency import Currency
+from tradeasystems_connector.model.period import Period
+from tradeasystems_connector.util.instrument_util import getInstrumentList
 import datetime
 
 manager = ManagerTrader(user_settings=user_settings)

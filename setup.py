@@ -3,8 +3,7 @@ from setuptools import setup
 setup(
     name='tradeasystems_connector',
     version='1.0.0',
-    packages=['', 'dao', 'conf', 'data', 'util', 'model', 'tests', 'tests.dao', 'tests.broker', 'tests.service',
-              'tests.historical_market_data', 'broker', 'service', 'historical_market_data'],
+    packages=['', 'tradeasystems_connector'],
     url='',
     license='',
     author='javier_falces',

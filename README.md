@@ -30,7 +30,7 @@ get historical data and save into pystore files
 ## install 
     pip install git+https://github.com/tradeasystems/tradeasystems_connector.git
 	
-### How to download data/persist (sample_script.py):<br>
+### How to download data/persist (sample_script.py):
     1- Configure user_settings with your credentials and configuration 
     2- manager = ManagerTrader(user_settings=user_settings)
     3a- download pandas dataframe to work sequentially -> dataDict = manager.getDataDictOfMatrix(instrumentList=instrumentList, ratioList=[], fromDate=fromDate,
