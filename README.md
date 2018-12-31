@@ -19,22 +19,22 @@ get historical data and save into pystore files
     *alphavantage
     *bloomberg
 ## Requirements:
-	visual studio:: https://visualstudio.microsoft.com/es/vs/community/<br>
-	Anaconda 3.6 :: https://www.anaconda.com/download<br>
-	Add to path   ::<br>
-	    TRADEA_LOG_PATH<br>
-	    TRADEA_DATABASE_PATH<br>
-	install python - snappy -> requirements or https://www.lfd.uci.edu/~gohlke/pythonlibs/<br>
-	pip install requirements.txt<br>
-	Numpy version 1.14 and pandas version 0.20.3<br>
+	visual studio:: https://visualstudio.microsoft.com/es/vs/community/
+	Anaconda 3.6 :: https://www.anaconda.com/download
+	Add to path   ::
+	    TRADEA_LOG_PATH
+	    TRADEA_DATABASE_PATH
+	install python - snappy -> requirements or https://www.lfd.uci.edu/~gohlke/pythonlibs/
+	pip install requirements.txt
+	Numpy version 1.14 and pandas version 0.20.3
 ## install 
     pip install git+https://github.com/tradeasystems/tradeasystems_connector.git
 	
 ### How to download data/persist (sample_script.py):<br>
-    1- Configure user_settings with your credentials and configuration <br>
+    1- Configure user_settings with your credentials and configuration 
     2- manager = ManagerTrader(user_settings=user_settings)
     3a- download pandas dataframe to work sequentially -> dataDict = manager.getDataDictOfMatrix(instrumentList=instrumentList, ratioList=[], fromDate=fromDate,
-                                           toDate=toDate)<br>
+                                           toDate=toDate)
     3b- download dict to work crosssectional -> dataDict = manager.getDataDictOfMatrix(instrumentList=instrumentList, ratioList=[], fromDate=fromDate,
-                                           toDate=toDate)<br>
+                                           toDate=toDate)
 
