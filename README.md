@@ -1,5 +1,5 @@
 # tradeasystems_connector <br>
-## common framework to  connect to different algorithmic trading providers
+## common framework to  connect to different algorithmic trading providers for data and trading
 ### Project needs to be developed more/test/ need more work , but save/load data normalizing format of all providers.
 #### use other open source libraries: pystore 
 The idea is to get a common framework easy to add new providers<br>
