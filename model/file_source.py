@@ -1,0 +1,2 @@
+class FileSource:
+    dukascopy = 'dukascopy',
