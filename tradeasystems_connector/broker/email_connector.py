@@ -89,7 +89,7 @@ class EmailConnector(BrokerConnector):
             msg['Subject'] = subject
             body = body
             msg.attach(MIMEText(body, 'plain'))
-            if html is not None and isinstance(html, str):
+            if isinstance(html, str):
                 msg.attach(MIMEText(html, 'html'))
 
             # %% Atachemnt
